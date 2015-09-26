@@ -41,7 +41,23 @@ You should have 2.2.3, Ex:
 
 `$ ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin14]`
 
-Install Node / NPM:
+#### PostGRES
+
+`$ brew install postgresql`
+
+`$ ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents`
+
+`$ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist`
+
+I recommend PGAdmin III:
+
+`$ brew cask install pgadmin3`
+
+Create a username with no password that's the same as your username:
+
+``
+
+#### Install Node / NPM:
 
 `brew install node`
 
