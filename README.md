@@ -40,3 +40,21 @@ Open up a terminal and type `ruby -v`
 You should have 2.2.3, Ex:
 
 `$ ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin14]`
+
+Install Node / NPM:
+
+`brew install node`
+
+node -v
+
+`$ v4.1.1`
+
+npm -v
+
+`2.14.4`
+
+Install npm packages for Angular / Gulp Generator:
+
+`npm install -g yo gulp bower`
+
+`npm install -g generator-gulp-angular`
